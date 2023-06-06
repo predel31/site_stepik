@@ -211,3 +211,61 @@ body{
 .team__icon-box a:hover {
     color: #9a9a9a;
 }
+ /* Provide */
+ .provide {
+    background-color: #181818;
+    padding-bottom: 155px;
+}
+.block__head {
+}
+.inverse .block__title {
+    padding-top: 176px;
+    color: #ffffff;
+}
+.inverse .block__text {
+    color: #777777;
+}
+.provide__inner {
+    display: flex;
+    padding-top: 138px;
+    justify-content: space-between;
+}
+.provide__item {
+    text-align: center;
+    min-width: 335px;
+}
+.provide__item i {
+    color: #fff;
+    font-size: 63px;
+    width: 172px;
+    height: 172px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 43px;
+}
+.icon-chart-line {
+}
+.provide__item-title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 31px;
+}
+.provide__item-text {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #383838;
+    margin: 0;
+}
+.icon-heart {
+}
+.icon-upload-cloud-outline {
+}
