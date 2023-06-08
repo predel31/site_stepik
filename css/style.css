@@ -233,6 +233,7 @@ body{
 .provide__item {
     text-align: center;
     min-width: 335px;
+    padding: 0 25px 0;
 }
 .provide__item i {
     color: #fff;
@@ -265,7 +266,126 @@ body{
     color: #383838;
     margin: 0;
 }
-.icon-heart {
+
+/* Форма */
+
+.contact {
 }
-.icon-upload-cloud-outline {
+.contact .block__head .block__title {
+    padding-top: 95px;
 }
+.block__title {
+}
+.block__text {
+}
+.contact__inner {
+}
+.contact__icon-box {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 570px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+.contact__item {
+    text-align: center;
+    width: 130px;
+}
+.contact__item i {
+    font-size: 21px;
+    color: #323232;
+}
+.contact__text {
+    margin-bottom: 12px;
+}
+.contact__text a {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact__text a:hover {
+    color: #4b4b4b;
+    text-decoration: underline;   
+}
+.icon-location {
+}
+.icon-mail-alt {
+}
+.contact__form {
+    padding-top: 153px;
+    display: flex;
+    flex-direction: column;
+    min-width: 770px;
+    margin: 0 auto;
+}
+
+.contact__form input {
+    height: 52px;
+    padding: 20px;
+    text-align: center;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+
+}
+.contact__name {
+    margin-bottom: 20px;
+}
+.contact__email {
+    margin-bottom: 20px;
+}
+.contact__number {
+    margin-bottom: 18px;
+}
+input::-webkit-outer-spin-button
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+.contact__textarea {
+    padding: 22px;
+    height: 195px;
+    margin-bottom: 21px;
+    resize: none;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+}
+.contact__form .contact__button {
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    background-color: #161616;
+    font-family: "HelveticaNeueLTProMd", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+    border: none;
+    
+}
+.footer {
+    padding-top: 154px;
+}
+.footer__text {
+    text-align: center;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #3b3b3b;
+    margin-bottom: 29px;
+}
+
