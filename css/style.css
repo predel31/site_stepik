@@ -389,3 +389,21 @@ input[type='number'] {
     margin-bottom: 29px;
 }
 
+@media screen and (max-width: 769px) {
+    .container{
+        width: 768px;
+    }
+    .about {
+        height: auto;
+        padding-bottom: 200px;
+    }
+    .about__inner {
+        grid-template-columns: max-content;
+        grid-gap: 30px;
+    }
+    .team .block__title {
+        padding-top: 100px;
+    }
+
+}
+
