@@ -232,7 +232,7 @@ body{
 }
 .provide__item {
     text-align: center;
-    min-width: 335px;
+    max-width: 350px;
     padding: 0 25px 0;
 }
 .provide__item i {
@@ -319,7 +319,7 @@ body{
     padding-top: 153px;
     display: flex;
     flex-direction: column;
-    min-width: 770px;
+    max-width: 770px;
     margin: 0 auto;
 }
 
@@ -389,6 +389,8 @@ input[type='number'] {
     margin-bottom: 29px;
 }
 
+/* media for iPad */
+
 @media screen and (max-width: 769px) {
     .container{
         width: 768px;
@@ -401,9 +403,35 @@ input[type='number'] {
         grid-template-columns: max-content;
         grid-gap: 30px;
     }
-    .team .block__title {
+    .provide {
+        padding-bottom: 100px;
+    }
+    .team .block__title,
+    .provide .block__title {
         padding-top: 100px;
+    }
+    .provide__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .provide__item {
+        max-width: 300px;
+        margin: 0 30px 40px;
+    }
+    .contact__form {
+        padding-top: 100px;
+        max-width: 768px;
+    }
+    .footer {
+        padding-top: 30px;
     }
 
 }
 
+/* media for iPhone */
+
+@media screen and (max-width: 376px) {
+    .container{
+        width: 375px;
+    }
+}
