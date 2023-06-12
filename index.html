@@ -14,24 +14,26 @@
             <nav class="menu__desktop">
                 <ul class="menu">
                     <li class="menu__item active"><a href="#">Home</a></li>
-                    <li class="menu__item"><a href="#">About Us</a></li>
-                    <li class="menu__item"><a href="#">Team</a></li>
+                    <li class="menu__item"><a href="#about">About Us</a></li>
+                    <li class="menu__item"><a href="#team">Team</a></li>
                     <li class="menu__item"><a href="#"><img src="img/logo.png" alt="" class="logo"></a></li>
-                    <li class="menu__item"><a href="#">Services</a></li>
+                    <li class="menu__item"><a href="#provide">Services</a></li>
                     <li class="menu__item"><a href="#">Blog</a></li>
-                    <li class="menu__item"><a href="#">Contact Us</a></li>
+                    <li class="menu__item"><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav>
             <nav class="menu__mobile">
-                <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
-                <div class="menu__burger"></div>
+                <div class="menu__inner">
+                    <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
+                    <div class="menu__burger"><span>toggle menu</span></div>
+                </div>
                 <ul class="menu">
                     <li class="menu__item active"><a href="#">Home</a></li>
-                    <li class="menu__item"><a href="#">About Us</a></li>
-                    <li class="menu__item"><a href="#">Team</a></li>
-                    <li class="menu__item"><a href="#">Services</a></li>
+                    <li class="menu__item"><a href="#about">About Us</a></li>
+                    <li class="menu__item"><a href="#team">Team</a></li>
+                    <li class="menu__item"><a href="#provide">Services</a></li>
                     <li class="menu__item"><a href="#">Blog</a></li>
-                    <li class="menu__item"><a href="#">Contact Us</a></li>
+                    <li class="menu__item"><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="header__content">
@@ -41,7 +43,7 @@
             </div>
         </div>
     </header>
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="about__inner">
                 <div class="about__item">
@@ -65,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="team">
+    <div class="team" id="team">
         <div class="container">
             <div class="block__head">
                 <h2 class="block__title">This is our team</h2>
@@ -102,7 +104,7 @@
             </div>
         </div>
     </div>
-    <div class="provide">
+    <div class="provide" id="provide">
         <div class="container">
             <div class="block__head inverse">
                 <h2 class="block__title">We provide you everything</h2>
@@ -127,7 +129,7 @@
             </div>
         </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container">
             <div class="block__head">
                 <h2 class="block__title">Contac Us</h2>
@@ -163,5 +165,7 @@
         </div>
     </div>
 
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
