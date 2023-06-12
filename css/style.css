@@ -479,6 +479,10 @@ input[type='number'] {
     .header__button {
         margin-bottom: 100px;
     }
+    .header__title {
+        margin-top: 160px;
+        margin-bottom: 50px;
+    }
     .about__item {
         max-width: 340px;
     }
